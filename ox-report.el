@@ -105,7 +105,9 @@ headheight=\\baselineskip]{geometry}
 \\colorlet{mdgray}{mdgrey}
 \\definecolor{mdlightgrey}{HTML}{D8D0C7}
 \\colorlet{mdlightgray}{mdlightgrey}
-
+\\definecolor{cblue}{HTML}{A4B9C5}
+\\definecolor{corange}{HTML}{FF9A00}
+\\definecolor{cdblue}{HTML}{5A7F96}
 
 %% DOC %<----------------------------------------------------------->%
 
@@ -210,6 +212,7 @@ headheight=\\baselineskip]{geometry}
 \\fancyfoot[c]{%%
   \\sffamily%%
 \\setlength{\\textwidth}{\\textwidth+\\marginparwidth}%%
+  \\color{cblue}
   \\@separator\\newline
   ~~%%
   \\begin{minipage}[c]{0.5\\textwidth}
@@ -287,7 +290,7 @@ headheight=\\baselineskip]{geometry}
   \\vspace{1ex}%%
   \\noindent%%
   \\@separator\\\\
-  \\rowcolors{4}{}{mdlightgray}
+  \\rowcolors{4}{}{cblue}
   \\begin{tabularx}{\\textwidth}{XXccc}
     \\rowcolor{white}
       \\parbox{\\linewidth}{{\\@labeltext \\@initiatorlabel}\\\\\\@initiator}
