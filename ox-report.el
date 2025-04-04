@@ -133,22 +133,22 @@ headheight=\\baselineskip]{geometry}
 %% Standard style for labels, small and bold
 \\newcommand{\\@labeltext}{\\large\\scshape}
 
-\\newcommand*{\\@approvedlabel}{\\UseLanguage{APPROUVE PAR}{APPROVED BY}{FREIGEGEBEN VON}}
+\\newcommand*{\\@approvedlabel}{\\UseLanguage{APPROUVÉ PAR}{APPROVED BY}{FREIGEGEBEN VON}}
 \\newcommand*{\\@approved}{Set with \\texttt{\textbackslash approved\\{\\}}}
 \\newcommand*{\\approved}{\\renewcommand*{\\@approved}}
 
 \\newcommand*{\\@authorlabel}{\\UseLanguage{Auteur(s)}{Author(s)}{Author(en)}}
 \\newcommand*{\\@Authorlabel}{\\UseLanguage{AUTEUR(S)}{AUTHOR(S)}{AUTHOR(EN)}}
 
-\\newcommand*{\\@checkedlabel}{\\UseLanguage{VERIFIE PAR}{CHECKED BY}{VERIFIZIERT DURCH}}
+\\newcommand*{\\@checkedlabel}{\\UseLanguage{VÉRIFIE PAR}{CHECKED BY}{VERIFIZIERT DURCH}}
 \\newcommand*{\\@checked}{Set with \\texttt{\textbackslash checked\\{\\}}}
 \\newcommand*{\\checked}{\\renewcommand*{\\@checked}}
 
 \\newcommand*{\\@datelabel}{\\UseLanguage{DATE}{DATE}{DATUM}}
 \\newcommand*{\\@absentlabel}{\\UseLanguage{ABSENT}{ABSENT}{ABWESEND}}
-\\newcommand*{\\@excusedlabel}{\\UseLanguage{EXCUSE}{EXCUSED}{ENTSCHULDIGT}}
+\\newcommand*{\\@excusedlabel}{\\UseLanguage{EXCUSÉ}{EXCUSED}{ENTSCHULDIGT}}
 
-\\newcommand*{\\@durationlabel}{\\UseLanguage{DUREE}{DURATION}{DAUER}}
+\\newcommand*{\\@durationlabel}{\\UseLanguage{DURÉE}{DURATION}{DAUER}}
 \\newcommand*{\\@duration}{Set with \\texttt{\\textbackslash duration\\{\\}}}
 \\newcommand*{\\duration}{\\renewcommand*{\\@duration}}
 
@@ -159,17 +159,17 @@ headheight=\\baselineskip]{geometry}
 \\newcommand*{\\@participantlabel}{\\UseLanguage{PARTICIPANT}{PARTICIPANT}{TEILNEHMER}}
 \\newcommand*{\\@participantslabel}{\\UseLanguage{PARTICIPANTS}{PARTICIPANTS}{TEILNEHMER}}
 
-\\newcommand*{\\@preparedlabel}{\\UseLanguage{PREPARE PAR}{PREPARED BY}{VORBEREITET VON}}
+\\newcommand*{\\@preparedlabel}{\\UseLanguage{PRÉPARÉ PAR}{PREPARED BY}{VORBEREITET VON}}
 \\newcommand*{\\@prepared}{Set with \\texttt{\\textbackslash prepared\\{\\}}}
 \\newcommand*{\\prepared}{\\renewcommand*{\\@prepared}}
 
-\\newcommand*{\\@presentlabel}{\\UseLanguage{PRESENT}{PRESENT}{ANWESEND}}
+\\newcommand*{\\@presentlabel}{\\UseLanguage{PRÉSENT}{PRESENT}{ANWESEND}}
 
 \\newcommand*{\\@projectlabel}{\\UseLanguage{PROJET}{PROJECT}{PROJEKT}}
 \\newcommand*{\\@project}{Set with \\texttt{\\textbackslash project\\{\\}}}
 \\newcommand*{\\project}{\\renewcommand*{\\@project}}
 
-\\newcommand*{\\@referencelabel}{\\UseLanguage{REFERENCE}{REFERENCE}{REFERENCE}}
+\\newcommand*{\\@referencelabel}{\\UseLanguage{RÉFÉRENCE}{REFERENCE}{REFERENCE}}
 \\newcommand*{\\@reportlabel}{\\UseLanguage{Rapport}{Report}{Bericht}}
 
 \\newcommand*{\\@reportnumberlabel}{\\UseLanguage{RAPPORT N°}{REPORT NUMBER}{BERICHT NUMMER}}
@@ -185,8 +185,8 @@ headheight=\\baselineskip]{geometry}
 %% TASKS
 \\newcommand*{\\@tasklistlabel}{\\UseLanguage{Liste de tâches}{Task List}{Aufgaben}}
 \\newcommand*{\\@tasknumberlabel}{\\#}
-\\newcommand*{\\@tasklabel}{\\UseLanguage{TACHE}{TASK}{Aufgabe}}
-\\newcommand*{\\@duelabel}{\\UseLanguage{DATE D'ECHEANCE}{DUE DATE}{ERLEDIGUNGSDATUM}}
+\\newcommand*{\\@tasklabel}{\\UseLanguage{TÂCHE}{TASK}{Aufgabe}}
+\\newcommand*{\\@duelabel}{\\UseLanguage{DATE D'ÉCHEANCE}{DUE DATE}{ERLEDIGUNGSDATUM}}
 \\newcommand*{\\@responsiblelabel}{\\UseLanguage{RESPONSABLE}{RESPONSIBLE}{VERANTWORTLICH}}
 
 %% MINUTES %-------------------------------------------------------%
@@ -194,7 +194,7 @@ headheight=\\baselineskip]{geometry}
 
 \\PassOptionsToPackage{table}{xcolor}
 
-\\renewcommand*{\\@authorlabel}{\\UseLanguage{ECRIT PAR}{WRITTEN BY}{GESCHRIEBEN VON}}
+\\renewcommand*{\\@authorlabel}{\\UseLanguage{ÉCRIT PAR}{WRITTEN BY}{GESCHRIEBEN VON}}
 
 
 %% Setting up header and footer
@@ -381,9 +381,9 @@ VISIBLE-ONLY BODY-ONLY and INFO."
     (:present "PRESENT" nil nil)
     (:absent "ABSENT" nil nil)
     (:excuse "EXCUSE" nil nil)
-    (:secretaire "SECRETAIRE" nil nil t)
+    (:secretaire "SECRÉTAIRE" nil nil t)
     (:secretaire "SECRETARY" nil nil t)
-    (:dure "DURE" nil " ")
+    (:dure "DURÉE" nil " ")
     (:dure "DURATION" nil " ")
     (:ou "OU" nil " ")
     (:ou "WHERE" nil " ")
