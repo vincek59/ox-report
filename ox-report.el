@@ -209,7 +209,7 @@ headheight=\\baselineskip]{geometry}
 \\renewcommand{\\footrulewidth}{0pt}
 \\fancyfoot[c]{%%
   \\sffamily%%
-  \\color{mdgray}
+\\setlength{\\textwidth}{\\textwidth+\\marginparwidth}%%
   \\@separator\\newline
   ~~%%
   \\begin{minipage}[c]{0.5\\textwidth}
